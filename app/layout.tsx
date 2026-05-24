@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import SmoothScrollProvider from "@/components/providers/SmoothScrollProvider";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -31,7 +32,9 @@ export default function RootLayout({
       <body
         className={`${playfair.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-playfair)]`}
       >
-        {children}
+        <SmoothScrollProvider>
+          {children}
+        </SmoothScrollProvider>
       </body>
     </html>
   );

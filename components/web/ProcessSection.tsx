@@ -61,7 +61,7 @@ export default function ProcessSection() {
               <p className="text-[#C9A84C] text-left text-sm mb-6 font-medium font-sans">
                 Step {idx + 1}
               </p>
-              <h3 className="text-2xl font-semibold text-[#0C1F3F] mb-6 text-left">
+              <h3 className="text-xl font-semibold text-[#0C1F3F] mb-6 text-left">
                 {step.title}
               </h3>
               <p className="text-base text-left font-sans text-[#676F7E]">{step.description}</p>
