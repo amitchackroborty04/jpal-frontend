@@ -15,7 +15,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#173f67] px-4 py-12 text-[#7f94ab] sm:px-6 md:py-14">
-      <div className="container mx-auto max-w-[1140px]">
+      <div className="container mx-auto ">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <Link
             href="#home"
