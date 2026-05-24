@@ -15,13 +15,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { MapPin, Mail } from "lucide-react";
-
-/**
- * Add these keys in: my-app/.env.local
- * NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
- * NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
- * NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
- */
 const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
 const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
 const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
