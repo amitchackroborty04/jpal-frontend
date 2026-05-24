@@ -34,7 +34,7 @@ export default function PhasesSection() {
             <p className="text-[#C9A84C] text-base mb-2 uppercase font-sans ">
               {phase.phase}
             </p>
-            <h3 className="text-2xl font-semibold text-white  mb-3">{phase.title}</h3>
+            <h3 className="text-xl font-semibold text-white  mb-3">{phase.title}</h3>
             <p className="text-gray-200 text-base font-sans">{phase.description}</p>
           </div>
         ))}

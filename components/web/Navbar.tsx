@@ -87,7 +87,7 @@ export default function Navbar() {
     <section className="bg-[#224262] sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between px-4 lg:px-0 py-4 text-white  lg:py-10">
         {/* Logo */}
-        <div className="flex h-[15px] w-[50px] lg:h-[30px] lg:w-[100px] items-center">
+        <div className="flex h-[15px] w-[50px] lg:h-[25px] lg:w-[80px] items-center">
           <Link href="#home" aria-label="Go to top section" onClick={handleSectionNav("#home")}>
             <Image
               src="/logo.png"

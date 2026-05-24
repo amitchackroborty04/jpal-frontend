@@ -38,16 +38,17 @@ const page = () => {
           <PhasesSection />
         </FadeInSection>
       </div>
+       <div id="markets" className="scroll-mt-24">
+        <FadeInSection>
+          <MarketCardsSection/>
+        </FadeInSection>
+      </div>
       <div id="investors" className="scroll-mt-24">
         <FadeInSection>
           <InvestorPartnerships/>
         </FadeInSection>
       </div>
-      <div id="markets" className="scroll-mt-24">
-        <FadeInSection>
-          <MarketCardsSection/>
-        </FadeInSection>
-      </div>
+     
       <div id="contact" className="scroll-mt-24">
         <FadeInSection>
           <ContactSection/>

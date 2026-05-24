@@ -1,7 +1,7 @@
 // app/components/ProcessSection.tsx
 "use client";
 
-import { Activity, Hammer, FileText, TrendingUp } from "lucide-react";
+import {  Hammer,  TrendingUp, Search, FileSearch } from "lucide-react";
 
 export default function ProcessSection() {
   const steps = [
@@ -9,14 +9,14 @@ export default function ProcessSection() {
       title: "Pre-Auction Identification",
       description:
         "We conduct comprehensive due diligence before every auction bid — occupancy review, title & lien analysis, HOA review, and full market analysis to ensure each acquisition meets our strict criteria.",
-      icon: <Activity className="w-6 h-6 text-blue-900" />,
+      icon: <Search className="w-6 h-6 text-blue-900 hover:text-[#C9A84C]/50" />,
       color: "bg-gray-100",
     },
     {
       title: "ARV & Cost Validation",
       description:
         "We accurately estimate renovation costs and validate the projected After-Repair Value (ARV) prior to acquisition, ensuring every deal pencils before we bid.",
-      icon: <FileText className="w-6 h-6 text-blue-900" />,
+      icon: <FileSearch className="w-6 h-6 text-blue-900 hover:text-[#C9A84C]/50" />,
       color: "bg-gray-100",
     },
     {
@@ -30,7 +30,7 @@ export default function ProcessSection() {
       title: "Resale & Value Creation",
       description:
         "Properties are repositioned for resale to first-time homebuyers and retail buyers through MLS listings, realtor partnerships, and online platforms — minimizing hold time and maximizing returns.",
-      icon: <TrendingUp className="w-6 h-6 text-yellow-600" />,
+      icon: <TrendingUp className="w-6 h-6 text-blue-900  hover:text-[#C9A84C]/50" />,
       color: "bg-gray-100",
     },
   ];

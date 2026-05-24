@@ -36,10 +36,10 @@ export default function AboutSection() {
 
         {/* Text Content */}
         <div className="md:w-1/2 flex flex-col">
-          <p className="text-[#C9A84C] uppercase tracking-wide text-sm mb-2">
+          <p className="text-[#C9A84C] uppercase tracking-wide text-sm mb-2 font-sans">
             Who We Are
           </p>
-          <h2 className="text-3xl md:text-6xl font-serif text-[#224262] mb-4">
+          <h2 className="text-3xl md:text-5xl font-serif text-[#224262] mb-4">
             Florida-Based Real Estate Investment
           </h2>
           <p className="text-[#676F7E] mb-6 text-xl font-sans">
