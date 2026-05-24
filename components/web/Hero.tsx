@@ -7,17 +7,17 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-white py-[50px] md:py-[100px]">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center shadow-lg rounded-md overflow-hidden bg-[#0C1F3F]">
+    <section className="w-full bg-white py-[50px] md:py-[100px] px-2 md:px-5 lg:px-0">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center shadow-lg rounded-md overflow-hidden bg-[#0C1F3F]">
         {/* Text Section */}
         <div className="md:w-1/2 p-8  text-white flex flex-col justify-center ">
-          <h1 className="text-2xl md:text-6xl  mb-2 font-normal">
+          <h1 className="text-2xl md:text-4xl lg:text-6xl  mb-2 font-normal">
             Florida Real Estate 
           </h1>
-          <h2 className="text-2xl md:text-6xl  mb-4 font-normal leading-tight ">
+          <h2 className="text-2xl md:text-3xl lg:text-6xl  mb-4 font-normal leading-tight ">
             Investment Disciplined Acquisitions.
           </h2>
-        <h2 className="font-playfair text-3xl md:text-5xl lg:text-6xl font-700 leading-tight mb-10 text-[#C9A84C]" >Exceptional Returns.</h2>
+        <h2 className="font-playfair text-3xl md:text-3xl lg:text-6xl font-700 leading-tight mb-10 text-[#C9A84C]" >Exceptional Returns.</h2>
           <div className="flex gap-4 flex-wrap">
             <Button
               asChild
