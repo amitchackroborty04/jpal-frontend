@@ -34,13 +34,13 @@ const features = [
 
 export default function InvestorPartnerships() {
   return (
-    <section className="bg-[#183f67] px-4 py-16 text-white sm:px-6 md:py-20">
+    <section className="bg-[#183f67] px-0 py-16 text-white sm:px-6 md:py-20">
       <div className="container mx-auto ">
         <div className="mx-auto mb-12 max-w-[680px] text-center">
           <p className="font-sans text-[13px] uppercase tracking-[0.22em] text-[#d2a647]">
             Partner With Us
           </p>
-          <h2 className="mt-2 text-[50px] leading-tight text-white">Investor Partnerships</h2>
+          <h2 className="mt-2 text-3xl lg:text-[50px] leading-tight text-white">Investor Partnerships</h2>
           <p className="mx-auto mt-3 max-w-[620px] font-sans text-[16px] leading-relaxed text-[#b6c4d6]">
             Buy Rite Properties actively seeks strategic investor partners to assist with
             acquisition funding following successful auction bids.
@@ -79,7 +79,7 @@ export default function InvestorPartnerships() {
           </p>
           <Button
             asChild
-            className="mt-6 h-12 rounded-[4px] bg-[#d3a642] px-8 font-sans text-[16px] font-medium text-[#172f4c] hover:bg-[#dfb354]"
+            className="mt-6 h-12 w-full lg:w-auto rounded-[4px] bg-[#d3a642] px-8 font-sans text-xs md:text-[16px] font-medium text-[#172f4c] hover:bg-[#dfb354]"
           >
             <Link href="#contact">Explore Partnership Opportunities</Link>
           </Button>

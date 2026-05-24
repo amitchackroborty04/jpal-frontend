@@ -107,14 +107,14 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="bg-[#eef0f3] px-4 py-16 sm:px-6 md:py-20">
+    <section className="bg-[#eef0f3] px-0 py-16 sm:px-6 md:py-20">
       <div className="container mx-auto grid  gap-12 lg:grid-cols-[1fr_1.08fr] lg:gap-16">
         <div>
           <p className="font-sans text-[13px] font-medium uppercase tracking-[0.2em] text-[#cf9f42]">
             Reach Out
           </p>
-          <h2 className="mt-2 text-[52px] leading-tight text-[#153d66] sm:text-[58px]">
-            Get In Touch
+          <h2 className="mt-2 text-3xl  lg:text-[40px] leading-tight text-[#153d66] sm:text-[58px]">
+            Get In Touch 
           </h2>
           <p className="mt-4 max-w-[560px] font-sans text-[16px] leading-relaxed text-[#5a6f85]">
             Whether you&apos;re an investor looking to partner with us, or you want to learn more

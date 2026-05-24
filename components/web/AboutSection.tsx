@@ -16,11 +16,11 @@ export default function AboutSection() {
 
   return (
     <section className="py-[100px] bg-white">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 md:gap-16">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8 md:gap-16">
         {/* Image */}
-        <div className="relative w-full md:w-1/2">
+        <div className="relative w-full lg:w-1/2">
           <div className="relative mx-auto w-full max-w-[620px] md:mx-0">
-            <div className="pointer-events-none absolute -top-5 -left-5 h-full w-full border-2 border-[#C9A84C]" />
+            <div className="pointer-events-none absolute -top-5 -left-5 h-full w-full border-2 border-[#C9A84C] hidden lg:block" />
             <div className="relative overflow-hidden rounded-md shadow-[0_14px_30px_rgba(0,0,0,0.14)]">
               <Image
                 src="/about.png"
@@ -35,7 +35,7 @@ export default function AboutSection() {
         </div>
 
         {/* Text Content */}
-        <div className="md:w-1/2 flex flex-col">
+        <div className="lg:w-1/2 flex flex-col ">
           <p className="text-[#C9A84C] uppercase tracking-wide text-sm mb-2 font-sans">
             Who We Are
           </p>

@@ -75,7 +75,7 @@ export default function MarketCardsSection() {
   ];
 
   return (
-    <section className="bg-white px-4 py-16 sm:px-6 md:py-20">
+    <section className="bg-white px-0 lg:px-0 py-16 sm:px-6 md:py-20">
       <div className="mx-auto container">
         <div className="mx-auto max-w-[760px] text-center">
           <p className="font-sans text-[13px] uppercase tracking-[0.26em] text-[#c79b3c]">
