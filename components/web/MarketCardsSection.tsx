@@ -50,7 +50,7 @@ export default function MarketCardsSection() {
       title: "Palm Beach County",
       state: "FLORIDA",
       median: "$510,000",
-      imageSrc: "/card11.jpg",
+      imageSrc: "/card2.svg",
       points: [
         "Balanced market conditions with negotiating leverage",
         "Buyers negotiating ~5–6% below asking price",
@@ -63,7 +63,7 @@ export default function MarketCardsSection() {
       title: "Martin County",
       state: "FLORIDA",
       median: "$600,000",
-      imageSrc: "/card22.jpg",
+      imageSrc: "/card3.svg",
       points: [
         "Strong coastal community demand",
         "Increased inventory providing negotiating leverage",

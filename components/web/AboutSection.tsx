@@ -21,7 +21,7 @@ export default function AboutSection() {
             <div className="pointer-events-none absolute -top-5 -left-5 h-full w-full border-2 border-[#C9A84C] hidden lg:block" />
             <div className="relative overflow-hidden rounded-md shadow-[0_14px_30px_rgba(0,0,0,0.14)]">
               <Image
-                src="/newabout.jpg"
+                src="/about1.svg"
                 alt="Florida Real Estate"
                 width={1000}
                 height={1000}
