@@ -6,9 +6,9 @@ import {  Hammer,  TrendingUp, Search, FileSearch } from "lucide-react";
 export default function ProcessSection() {
   const steps = [
     {
-      title: "Pre-Auction Identification",
+      title: "Pre-Foreclosure & Pre-Auction Identification",
       description:
-        "We conduct comprehensive due diligence before every auction bid — occupancy review, title & lien analysis, HOA review, and full market analysis to ensure each acquisition meets our strict criteria.",
+        "We conduct comprehensive due diligence before every acquisition and auction bid — including occupancy review, title and lien analysis, HOA review, and full market evaluation — to ensure each property meets our strict investment criteria.",
       icon: <Search className="w-6 h-6 text-blue-900 hover:text-[#C9A84C]/50" />,
       color: "bg-gray-100",
     },

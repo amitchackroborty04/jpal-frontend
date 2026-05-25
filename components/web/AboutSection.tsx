@@ -6,12 +6,10 @@ import { CircleCheckBig } from "lucide-react";
 
 export default function AboutSection() {
   const features = [
-    "Distressed property acquisitions through foreclosure auctions",
-    "Conservative underwriting and due diligence standards",
-    "Strategic renovations using licensed, insured trade partners",
-    "Residential resale to first-time homebuyers and retail buyers",
-    "Disciplined risk management with multiple exit strategies",
-    "Transparent, investor-focused business practices",
+    " Identifying distressed residential properties during the pre-foreclosure process ",
+    "Targeting undervalued properties through pre-foreclosure analysis ",
+    "Early-stage identification of distressed residential assets in pre-foreclosure ",
+   
   ];
 
   return (
@@ -23,10 +21,10 @@ export default function AboutSection() {
             <div className="pointer-events-none absolute -top-5 -left-5 h-full w-full border-2 border-[#C9A84C] hidden lg:block" />
             <div className="relative overflow-hidden rounded-md shadow-[0_14px_30px_rgba(0,0,0,0.14)]">
               <Image
-                src="/about.png"
+                src="/newabout.jpg"
                 alt="Florida Real Estate"
-                width={600}
-                height={400}
+                width={1000}
+                height={1000}
                 className="block h-auto w-full object-cover"
               />
               <div className="pointer-events-none absolute inset-0 rounded-md border border-white/45" />
@@ -39,14 +37,11 @@ export default function AboutSection() {
           <p className="text-[#C9A84C] uppercase tracking-wide text-sm mb-2 font-sans">
             Who We Are
           </p>
-          <h2 className="text-3xl md:text-5xl font-serif text-[#224262] mb-4">
-            Florida-Based Real Estate Investment
+          <h2 className="text-3xl md:text-4xl font-serif text-[#224262] mb-4 ">
+            Florida Real Estate PartnershipsDisciplined Acquisitions Trusted Partnerships.
           </h2>
           <p className="text-[#676F7E] mb-6 text-xl font-sans">
-            Buy Rite Properties LLC is a Florida-based real estate investment
-            company specializing in the acquisition of distressed and
-            undervalued residential real estate through county and public
-            foreclosure auctions throughout Palm Beach County and Martin County.
+          Buy Rite Properties LLC is a Florida-based real estate investment company specializing in the identification and acquisition of distressed and undervalued residential properties through pre-foreclosure opportunities, county foreclosure sales, and public auctions throughout Palm Beach and Martin Counties.
           </p>
 
           <ul className="space-y-3">

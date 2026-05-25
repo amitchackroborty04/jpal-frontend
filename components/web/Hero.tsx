@@ -38,7 +38,7 @@ export default function Hero() {
         <div className="md:w-1/2 w-full relative h-80 md:h-[600px] ">
         <div className="border-2 border-[#C9A84C] w-[600px] h-[550px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden lg:block"></div>
           <Image
-            src="/hero.png" 
+            src="/newhero.png" 
             alt="Florida Real Estate"
             width={1000}
             height={1000}

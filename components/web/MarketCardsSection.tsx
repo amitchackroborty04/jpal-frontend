@@ -15,8 +15,8 @@ const MarketCard = ({ title, state, median, imageSrc, points }: MarketCardProps)
   return (
     <article className="overflow-hidden rounded-md border border-[#ccd1d8] bg-white shadow-[0_2px_8px_rgba(7,21,38,0.08)]">
       <div className="relative h-[180px] w-full sm:h-[200px]">
-        <Image src={imageSrc} alt={title} fill className="object-cover" priority={false} />
-        <div className="absolute inset-0 bg-black/55" />
+        <Image src={imageSrc} alt={title} width={1000} height={1000} className="h-full w-full object-cover"  />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="absolute right-3 top-3 rounded-[4px] bg-[#d1a03f] px-3 py-2 font-sans text-[15px] text-[#0f2b45]">
           Median: {median}
         </div>
@@ -50,7 +50,7 @@ export default function MarketCardsSection() {
       title: "Palm Beach County",
       state: "FLORIDA",
       median: "$510,000",
-      imageSrc: "/card1.png",
+      imageSrc: "/card11.jpg",
       points: [
         "Balanced market conditions with negotiating leverage",
         "Buyers negotiating ~5–6% below asking price",
@@ -63,7 +63,7 @@ export default function MarketCardsSection() {
       title: "Martin County",
       state: "FLORIDA",
       median: "$600,000",
-      imageSrc: "/card2.png",
+      imageSrc: "/card22.jpg",
       points: [
         "Strong coastal community demand",
         "Increased inventory providing negotiating leverage",

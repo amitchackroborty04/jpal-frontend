@@ -114,11 +114,10 @@ export default function ContactSection() {
             Reach Out
           </p>
           <h2 className="mt-2 text-3xl  lg:text-[40px] leading-tight text-[#153d66] sm:text-[58px]">
-            Get In Touch 
+            Get In Touch Contact us
           </h2>
           <p className="mt-4 max-w-[560px] font-sans text-[16px] leading-relaxed text-[#5a6f85]">
-            Whether you&apos;re an investor looking to partner with us, or you want to learn more
-            about our acquisition strategy, we&apos;d love to hear from you.
+          Whether you're a home buyer,real estate investor looking to partner with us, or you want to learn more about our acquisition strategy, we'd love to hear from you.
           </p>
 
           <div className="mt-9 space-y-6">
@@ -129,7 +128,7 @@ export default function ContactSection() {
               <div>
                 <p className="font-sans text-[16px] font-medium text-[#132f4f]">Service Area</p>
                 <p className="font-sans text-[15px] leading-relaxed text-[#5a6f85]">
-                  Palm Beach County &amp; Martin County, Florida
+                 Palm Beach County & Martin County, Florida
                 </p>
               </div>
             </div>
@@ -141,9 +140,14 @@ export default function ContactSection() {
               <div>
                 <p className="font-sans text-[16px] font-medium text-[#132f4f]">Email</p>
                 <p className="font-sans text-[15px] leading-relaxed text-[#5a6f85]">
-                  info@buyrite-properties.com
+                  info@buy-rite-properties.com
                 </p>
               </div>
+            </div>
+            <div>
+              <p className="text-sm font-sans">
+               <span className="font-medium"> Legal Disclaimer: </span>Buy Rite Properties LLC is a real estate investment company and does not provide legal, tax, accounting, or financial advisory services. All information presented on this website and in related materials is for informational purposes only and should not be construed as legal, financial, or investment advice.                                                                                                      Real estate investments involve risk, and past performance does not guarantee future results. Any projected returns, valuations, or investment opportunities referenced are estimates only and may change based on market conditions and other factors. Prospective partners, investors, and clients are encouraged to conduct their own due diligence and consult with licensed legal, tax, and financial professionals before making any investment or real estate decisions.                                                                                                       Buy Rite Properties LLC acquires properties through various channels, including pre-foreclosure opportunities, county foreclosure sales, public auctions, and negotiated transactions. Property availability, pricing, title status, occupancy, liens, and condition may change without notice. While every effort is made to verify property information, Buy Rite Properties LLC makes no guarantees or warranties regarding the accuracy or completeness of any information provided. All content, branding, logos, and materials on this website are the property of Buy Rite Properties LLC and may not be copied, reproduced, or distributed without prior written consent.
+              </p>
             </div>
           </div>
         </div>
